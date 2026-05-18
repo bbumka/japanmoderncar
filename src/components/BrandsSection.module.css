@@ -1,0 +1,6 @@
+.section { padding: 70px 60px; border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); }
+.title { text-align: center; font-size: 0.78rem; color: var(--gray); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 44px; }
+.grid { display: flex; justify-content: center; align-items: center; gap: 56px; flex-wrap: wrap; }
+.item { font-size: 1.35rem; font-weight: 900; letter-spacing: 2px; color: rgba(255,255,255,0.18); text-transform: uppercase; transition: color 0.2s; cursor: default; }
+.item:hover { color: var(--red); }
+@media (max-width: 900px) { .section { padding: 50px 20px; } .grid { gap: 28px; } }

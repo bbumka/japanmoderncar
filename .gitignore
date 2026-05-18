@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+*.log
+password.txt
+.claude/
+generate_images.py
+test_car.png
